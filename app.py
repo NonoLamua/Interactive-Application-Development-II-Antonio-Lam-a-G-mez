@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 # --- App Config ---
 st.set_page_config(layout="wide", page_title="Product Performance Hub")
 
-# --- Cached Data Generation Function (from your Version 1) ---
+# --- Cached Data Generation Function ---
 @st.cache_data
 def generate_initial_data():
     product_names = ["Aurora Buds", "Nova Mug", "Zenith Mat", "Lumos Lamp", "Terra SSD", "Helios Charger", "Orion Mousepad"]
